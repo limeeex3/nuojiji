@@ -1,0 +1,1091 @@
+{
+  "version": 7,
+  "timestamp": 1792048656229,
+  "appVersion": "",
+  "source": "auto",
+  "device": "web",
+  "tables": [
+    "characters",
+    "friendRequests",
+    "worldBooks",
+    "globalSettings",
+    "stickers",
+    "kaomojis",
+    "users",
+    "userState",
+    "userPosts",
+    "chatSettings",
+    "messages",
+    "favorites",
+    "memory",
+    "summaryEntries",
+    "callLogs",
+    "roleStickers",
+    "tmSessions",
+    "tmStories",
+    "multiSceneSessions",
+    "multiSceneStories",
+    "multiSceneCastSettings",
+    "multiSceneSessionSettings",
+    "multiSceneSessionSummaries",
+    "customNoises",
+    "customBgm",
+    "flashMoments",
+    "groupSettings",
+    "userLinks",
+    "userMessages",
+    "ttsAudio",
+    "forumData",
+    "forumItems",
+    "calendarData",
+    "customCalendars",
+    "groupChats",
+    "xinsheng",
+    "xinshengRounds",
+    "pomodoroSessions",
+    "couplesData",
+    "imageStore",
+    "stickerStore",
+    "quickReplies",
+    "goingOutState",
+    "goingOutAreas",
+    "goingOutLogs",
+    "jiliData",
+    "jiliCreators",
+    "jiliPosts",
+    "jiliDMs",
+    "jiliDMMessages",
+    "mapRasterCache",
+    "shareLinkMeta",
+    "customGames",
+    "customGameSaves",
+    "customWidgetTemplates",
+    "customWidgetState",
+    "wallpapers",
+    "lifeRpgData",
+    "whiteDogData",
+    "isekaiSaves",
+    "isekaiPresets",
+    "isekaiWorlds",
+    "pomodoroData",
+    "regexRules",
+    "mcpServers",
+    "thinkingStore",
+    "commitments",
+    "characterLifeState",
+    "chikanPhoneSkins",
+    "healthEntries",
+    "healthProfile",
+    "homelandState",
+    "fontStore",
+    "radioData",
+    "novelBooks",
+    "novelChapters",
+    "novelVolumes",
+    "coReadBooks",
+    "coReadChapters",
+    "coReadSessions",
+    "coReadComments",
+    "rowFieldItems",
+    "coReadQuotes",
+    "coReadTranslations",
+    "studyTalks",
+    "studyOutlines",
+    "studyQuizzes",
+    "studyGoals",
+    "studyExams",
+    "studyCards",
+    "naiVibeCache",
+    "walletTransactions",
+    "walletData",
+    "shopOrders",
+    "shopData",
+    "shopFulfillments",
+    "deliveryOrders",
+    "deliveryData",
+    "deliveryBiz",
+    "timeCards",
+    "timeCardState",
+    "chatVariables",
+    "plugins",
+    "avatarFrames",
+    "assets",
+    "pluginAssets",
+    "pluginData",
+    "chatSettingsPresets",
+    "charBondSpaces",
+    "charLifePlans",
+    "_migration"
+  ],
+  "chunkedTables": {
+    "stickers": 5,
+    "roleStickers": 4,
+    "imageStore": 44,
+    "stickerStore": 9
+  },
+  "completedTables": {
+    "characters": true,
+    "friendRequests": true,
+    "worldBooks": true,
+    "globalSettings": true,
+    "kaomojis": true,
+    "users": true,
+    "userState": true,
+    "userPosts": true,
+    "chatSettings": true,
+    "messages": true,
+    "favorites": true,
+    "memory": true,
+    "summaryEntries": true,
+    "callLogs": true,
+    "tmSessions": true,
+    "tmStories": true,
+    "multiSceneSessions": true,
+    "multiSceneStories": true,
+    "multiSceneCastSettings": true,
+    "multiSceneSessionSettings": true,
+    "multiSceneSessionSummaries": true,
+    "customNoises": true,
+    "customBgm": true,
+    "flashMoments": true,
+    "groupSettings": true,
+    "userLinks": true,
+    "userMessages": true,
+    "ttsAudio": true,
+    "forumData": true,
+    "forumItems": true,
+    "calendarData": true,
+    "customCalendars": true,
+    "groupChats": true,
+    "xinsheng": true,
+    "xinshengRounds": true,
+    "pomodoroSessions": true,
+    "couplesData": true,
+    "quickReplies": true,
+    "goingOutState": true,
+    "goingOutAreas": true,
+    "goingOutLogs": true,
+    "jiliData": true,
+    "jiliCreators": true,
+    "jiliPosts": true,
+    "jiliDMs": true,
+    "jiliDMMessages": true,
+    "mapRasterCache": true,
+    "shareLinkMeta": true,
+    "customGames": true,
+    "customGameSaves": true,
+    "customWidgetTemplates": true,
+    "customWidgetState": true,
+    "wallpapers": true,
+    "lifeRpgData": true,
+    "whiteDogData": true,
+    "isekaiSaves": true,
+    "isekaiPresets": true,
+    "isekaiWorlds": true,
+    "pomodoroData": true,
+    "regexRules": true,
+    "mcpServers": true,
+    "thinkingStore": true,
+    "commitments": true,
+    "characterLifeState": true,
+    "chikanPhoneSkins": true,
+    "healthEntries": true,
+    "healthProfile": true,
+    "homelandState": true,
+    "fontStore": true,
+    "radioData": true,
+    "novelBooks": true,
+    "novelChapters": true,
+    "novelVolumes": true,
+    "coReadBooks": true,
+    "coReadChapters": true,
+    "coReadSessions": true,
+    "coReadComments": true,
+    "rowFieldItems": true,
+    "coReadQuotes": true,
+    "coReadTranslations": true,
+    "studyTalks": true,
+    "studyOutlines": true,
+    "studyQuizzes": true,
+    "studyGoals": true,
+    "studyExams": true,
+    "studyCards": true,
+    "naiVibeCache": true,
+    "walletTransactions": true,
+    "walletData": true,
+    "shopOrders": true,
+    "shopData": true,
+    "shopFulfillments": true,
+    "deliveryOrders": true,
+    "deliveryData": true,
+    "deliveryBiz": true,
+    "timeCards": true,
+    "timeCardState": true,
+    "chatVariables": true,
+    "plugins": true,
+    "avatarFrames": true,
+    "assets": true,
+    "pluginAssets": true,
+    "pluginData": true,
+    "chatSettingsPresets": true,
+    "charBondSpaces": true,
+    "charLifePlans": true,
+    "_migration": true
+  },
+  "complete": true,
+  "lastCompleteAt": 1792048656229,
+  "secretsIncluded": false,
+  "inProgress": false,
+  "files": {
+    "characters.json": {
+      "h": "g:3a4845f825c044468d700b78872c5af35180dc6a",
+      "gz": false,
+      "b": "3a4845f825c044468d700b78872c5af35180dc6a"
+    },
+    "friendRequests.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "_localStorage.json": {
+      "h": "g:308a72ab0ed6ce3b3510c79bc71918cd208fd769",
+      "gz": false,
+      "b": "308a72ab0ed6ce3b3510c79bc71918cd208fd769"
+    },
+    "worldBooks.json": {
+      "h": "g:9c294c9963e1f4f8befda6b1f6b61d99460b8988",
+      "gz": false,
+      "b": "9c294c9963e1f4f8befda6b1f6b61d99460b8988"
+    },
+    "stickers_chunk_0.json": {
+      "h": "g:77be8a878d70b590f69f9d46deec1fe2c2de1d6a",
+      "gz": false,
+      "b": "77be8a878d70b590f69f9d46deec1fe2c2de1d6a"
+    },
+    "globalSettings.json": {
+      "h": "g:d468d0ac4cd6a49e63650e54b26ec44486f76319",
+      "gz": false,
+      "b": "d468d0ac4cd6a49e63650e54b26ec44486f76319"
+    },
+    "stickers_chunk_1.json": {
+      "h": "g:8f935396bc1b03ff3dc52b70a9a9d7902cb8aa05",
+      "gz": false,
+      "b": "8f935396bc1b03ff3dc52b70a9a9d7902cb8aa05"
+    },
+    "stickers_chunk_3.json": {
+      "h": "g:214d58c81056199a7c588b84aecff93f2cb036b0",
+      "gz": false,
+      "b": "214d58c81056199a7c588b84aecff93f2cb036b0"
+    },
+    "stickers_chunk_2.json": {
+      "h": "g:af46c3313eb74e5e6c01ed081b75563e0dc7dff1",
+      "gz": false,
+      "b": "af46c3313eb74e5e6c01ed081b75563e0dc7dff1"
+    },
+    "stickers_chunk_4.json": {
+      "h": "g:f8e8e1f1104ebc99a44c7e9b0b52a544707e753d",
+      "gz": false,
+      "b": "f8e8e1f1104ebc99a44c7e9b0b52a544707e753d"
+    },
+    "userPosts.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "users.json": {
+      "h": "g:d7f5e184562bf8497f340afc58fe1c07b3c5f3e5",
+      "gz": false,
+      "b": "d7f5e184562bf8497f340afc58fe1c07b3c5f3e5"
+    },
+    "kaomojis.json": {
+      "h": "g:e469dbce0b6f35cd3779ac6c94574f9af682189a",
+      "gz": false,
+      "b": "e469dbce0b6f35cd3779ac6c94574f9af682189a"
+    },
+    "favorites.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "userState.json": {
+      "h": "g:3111b7ed8b3e19a9f674f329a19ede1069a88839",
+      "gz": false,
+      "b": "3111b7ed8b3e19a9f674f329a19ede1069a88839"
+    },
+    "chatSettings.json": {
+      "h": "g:e30b0eefa20ce3172ac578ef1e6342300a5ff3fa",
+      "gz": false,
+      "b": "e30b0eefa20ce3172ac578ef1e6342300a5ff3fa"
+    },
+    "memory.json": {
+      "h": "g:c1ed7243c9185faa24f3097ff955da707da83edd",
+      "gz": false,
+      "b": "c1ed7243c9185faa24f3097ff955da707da83edd"
+    },
+    "messages.json": {
+      "h": "g:efb9c1dbad12848cf2c4fc1bd9797894b98c1d31",
+      "gz": false,
+      "b": "efb9c1dbad12848cf2c4fc1bd9797894b98c1d31"
+    },
+    "summaryEntries.json": {
+      "h": "g:10d9b74fe1a3be888d1215982ed3ff7c880c07c6",
+      "gz": false,
+      "b": "10d9b74fe1a3be888d1215982ed3ff7c880c07c6"
+    },
+    "callLogs.json": {
+      "h": "g:f4b73f236d7b2be1a18ea7dfc1b44642c7b3f790",
+      "gz": false,
+      "b": "f4b73f236d7b2be1a18ea7dfc1b44642c7b3f790"
+    },
+    "roleStickers_chunk_0.json": {
+      "h": "g:04091da840b6549d002a566c4f87b9f6fe74d0e9",
+      "gz": false,
+      "b": "04091da840b6549d002a566c4f87b9f6fe74d0e9"
+    },
+    "roleStickers_chunk_1.json": {
+      "h": "g:58d91d2f26cacc30d4adfc53534fd5f5563c30f5",
+      "gz": false,
+      "b": "58d91d2f26cacc30d4adfc53534fd5f5563c30f5"
+    },
+    "multiSceneSessions.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "multiSceneStories.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "multiSceneCastSettings.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "multiSceneSessionSettings.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "multiSceneSessionSummaries.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "customNoises.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "customBgm.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "flashMoments.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "groupSettings.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "userLinks.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "userMessages.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "ttsAudio.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "roleStickers_chunk_3.json": {
+      "h": "g:30c5c9eefceacf0f4834eea16c8bc7b6fdd3f427",
+      "gz": false,
+      "b": "30c5c9eefceacf0f4834eea16c8bc7b6fdd3f427"
+    },
+    "roleStickers_chunk_2.json": {
+      "h": "g:7c41e5f51353eb9b3ec14ce8339ac3ce27e62d7c",
+      "gz": false,
+      "b": "7c41e5f51353eb9b3ec14ce8339ac3ce27e62d7c"
+    },
+    "tmSessions.json": {
+      "h": "g:ed6dd7d7aa10393a0aca0d13de1c1b3d927a091d",
+      "gz": false,
+      "b": "ed6dd7d7aa10393a0aca0d13de1c1b3d927a091d"
+    },
+    "customCalendars.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "tmStories.json": {
+      "h": "g:30661a162729a9deec5c82ad8e54c5ec660e3a68",
+      "gz": false,
+      "b": "30661a162729a9deec5c82ad8e54c5ec660e3a68"
+    },
+    "forumData.json": {
+      "h": "g:7e4182902f275f1ff19a5b85ba4a37eba7f5dac0",
+      "gz": false,
+      "b": "7e4182902f275f1ff19a5b85ba4a37eba7f5dac0"
+    },
+    "forumItems.json": {
+      "h": "g:67a3e4bed913f803330a698cd78097b44273eaa9",
+      "gz": false,
+      "b": "67a3e4bed913f803330a698cd78097b44273eaa9"
+    },
+    "pomodoroSessions.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "couplesData.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "calendarData.json": {
+      "h": "g:f9e273154e4316ae946253a75de95610e48f9c6b",
+      "gz": false,
+      "b": "f9e273154e4316ae946253a75de95610e48f9c6b"
+    },
+    "imageStore_chunk_1.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "imageStore_chunk_2.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "imageStore_chunk_3.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "imageStore_chunk_4.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "imageStore_chunk_5.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "imageStore_chunk_6.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "imageStore_chunk_7.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "imageStore_chunk_8.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "imageStore_chunk_9.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "imageStore_chunk_10.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "imageStore_chunk_11.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "imageStore_chunk_12.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "imageStore_chunk_13.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "imageStore_chunk_14.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "imageStore_chunk_15.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "imageStore_chunk_16.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "imageStore_chunk_17.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "imageStore_chunk_18.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "imageStore_chunk_19.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "imageStore_chunk_20.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "imageStore_chunk_21.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "imageStore_chunk_22.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "imageStore_chunk_23.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "imageStore_chunk_24.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "imageStore_chunk_25.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "groupChats.json": {
+      "h": "g:9d6b16ec690ea648ac4f12146999b921db06aae3",
+      "gz": false,
+      "b": "9d6b16ec690ea648ac4f12146999b921db06aae3"
+    },
+    "xinsheng.json": {
+      "h": "g:2f72bf6fa14c9ebf2f1a7ac17d1b6331b0761ff4",
+      "gz": false,
+      "b": "2f72bf6fa14c9ebf2f1a7ac17d1b6331b0761ff4"
+    },
+    "imageStore_chunk_26.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "xinshengRounds.json": {
+      "h": "g:0e1e538242a704d4cdf9f6ddee14358d0cd59154",
+      "gz": false,
+      "b": "0e1e538242a704d4cdf9f6ddee14358d0cd59154"
+    },
+    "imageStore_chunk_27.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "imageStore_chunk_28.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "imageStore_chunk_29.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "imageStore_chunk_30.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "imageStore_chunk_31.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "imageStore_chunk_32.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "imageStore_chunk_33.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "imageStore_chunk_34.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "imageStore_chunk_35.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "imageStore_chunk_36.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "imageStore_chunk_37.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "imageStore_chunk_0.json": {
+      "h": "g:eaad0678321c29b870315a5e6b376e47faecc917",
+      "gz": false,
+      "b": "eaad0678321c29b870315a5e6b376e47faecc917"
+    },
+    "imageStore_chunk_38.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "imageStore_chunk_39.json": {
+      "h": "g:3b3e417f6d58c1159abd456a04809e03c74c049a",
+      "gz": false,
+      "b": "3b3e417f6d58c1159abd456a04809e03c74c049a"
+    },
+    "stickerStore_chunk_0.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "stickerStore_chunk_1.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "stickerStore_chunk_2.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "stickerStore_chunk_3.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "stickerStore_chunk_4.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "stickerStore_chunk_5.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "stickerStore_chunk_6.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "stickerStore_chunk_7.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "stickerStore_chunk_8.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "quickReplies.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "goingOutState.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "goingOutAreas.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "goingOutLogs.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "imageStore_chunk_40.json": {
+      "h": "g:6fd0605ee7f14d6b8c6570af73deb9c3bec7be10",
+      "gz": false,
+      "b": "6fd0605ee7f14d6b8c6570af73deb9c3bec7be10"
+    },
+    "jiliCreators.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "jiliPosts.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "jiliDMs.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "jiliDMMessages.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "mapRasterCache.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "shareLinkMeta.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "imageStore_chunk_41.json": {
+      "h": "g:4fc7ae4a9aded8381975132bdfc818cfd090bfd0",
+      "gz": false,
+      "b": "4fc7ae4a9aded8381975132bdfc818cfd090bfd0"
+    },
+    "imageStore_chunk_42.json": {
+      "h": "g:6a28a738b4a2f9f619d3f370bedc5e754a2384d5",
+      "gz": false,
+      "b": "6a28a738b4a2f9f619d3f370bedc5e754a2384d5"
+    },
+    "jiliData.json": {
+      "h": "g:20fbb7fa496805390c589a029711fd300a902e7d",
+      "gz": false,
+      "b": "20fbb7fa496805390c589a029711fd300a902e7d"
+    },
+    "customGames.json": {
+      "h": "g:3f3350c738850df958bb440ed15a14bfcf0c665a",
+      "gz": false,
+      "b": "3f3350c738850df958bb440ed15a14bfcf0c665a"
+    },
+    "wallpapers.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "imageStore_chunk_43.json": {
+      "h": "g:1baeb94c867656c4eac0fdfece5e0bb400b3563b",
+      "gz": false,
+      "b": "1baeb94c867656c4eac0fdfece5e0bb400b3563b"
+    },
+    "whiteDogData.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "customGameSaves.json": {
+      "h": "g:8297ca289a09feeaabe0ec12bc896a75dbc76212",
+      "gz": false,
+      "b": "8297ca289a09feeaabe0ec12bc896a75dbc76212"
+    },
+    "customWidgetState.json": {
+      "h": "g:064f24c6422a027268723d67f9f5b7b76ae06bf7",
+      "gz": false,
+      "b": "064f24c6422a027268723d67f9f5b7b76ae06bf7"
+    },
+    "customWidgetTemplates.json": {
+      "h": "g:4bd27eeed26e1fdd09cebbb47ac63bef50e69eb3",
+      "gz": false,
+      "b": "4bd27eeed26e1fdd09cebbb47ac63bef50e69eb3"
+    },
+    "pomodoroData.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "regexRules.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "lifeRpgData.json": {
+      "h": "g:db2f3ce7f37c45c8615ad64364da4f1fe18c35bb",
+      "gz": false,
+      "b": "db2f3ce7f37c45c8615ad64364da4f1fe18c35bb"
+    },
+    "mcpServers.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "commitments.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "characterLifeState.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "chikanPhoneSkins.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "healthEntries.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "healthProfile.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "homelandState.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "isekaiSaves.json": {
+      "h": "g:1a29b9f35db276058409fa91863c4c0b79e3940a",
+      "gz": false,
+      "b": "1a29b9f35db276058409fa91863c4c0b79e3940a"
+    },
+    "radioData.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "novelBooks.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "novelChapters.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "novelVolumes.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "coReadBooks.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "coReadChapters.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "coReadSessions.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "coReadComments.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "isekaiWorlds.json": {
+      "h": "g:fddda6863d9f259ee75e3bdc57669eba49a91570",
+      "gz": false,
+      "b": "fddda6863d9f259ee75e3bdc57669eba49a91570"
+    },
+    "coReadQuotes.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "coReadTranslations.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "studyTalks.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "studyOutlines.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "studyQuizzes.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "studyGoals.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "studyExams.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "studyCards.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "naiVibeCache.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "thinkingStore.json": {
+      "h": "g:c8d2d5e49c0d67178a43c21efa01312c053f47ef",
+      "gz": false,
+      "b": "c8d2d5e49c0d67178a43c21efa01312c053f47ef"
+    },
+    "isekaiPresets.json": {
+      "h": "g:bc7660059c5c2d95aa3bd38c9ec18e45dd2340d0",
+      "gz": false,
+      "b": "bc7660059c5c2d95aa3bd38c9ec18e45dd2340d0"
+    },
+    "shopOrders.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "walletTransactions.json": {
+      "h": "g:18f4466cf4fedd08d16e75b5a5c9c626105432ff",
+      "gz": false,
+      "b": "18f4466cf4fedd08d16e75b5a5c9c626105432ff"
+    },
+    "shopFulfillments.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "deliveryOrders.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "deliveryData.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "deliveryBiz.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "timeCards.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "walletData.json": {
+      "h": "g:f7c991d3f5b5cdd876988e2d53a4d6ceac303e2d",
+      "gz": false,
+      "b": "f7c991d3f5b5cdd876988e2d53a4d6ceac303e2d"
+    },
+    "fontStore.json": {
+      "h": "g:d4255cd9c4e0b003372079aeef5981f0dbd4ac9d",
+      "gz": false,
+      "b": "d4255cd9c4e0b003372079aeef5981f0dbd4ac9d"
+    },
+    "plugins.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "avatarFrames.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "assets.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "pluginAssets.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "pluginData.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "chatSettingsPresets.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "charBondSpaces.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "charLifePlans.json": {
+      "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "gz": false,
+      "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
+    },
+    "shopData.json": {
+      "h": "g:100002a100fec99d5fe0d7b072a95112165ddb31",
+      "gz": false,
+      "b": "100002a100fec99d5fe0d7b072a95112165ddb31"
+    },
+    "timeCardState.json": {
+      "h": "g:cdf0c0a1aa34fed2571973c7cf59a53a75e47b00",
+      "gz": false,
+      "b": "cdf0c0a1aa34fed2571973c7cf59a53a75e47b00"
+    },
+    "rowFieldItems.json": {
+      "h": "g:3b28dd8e21a680c31082060bb7a3ff15291866bd",
+      "gz": false,
+      "b": "3b28dd8e21a680c31082060bb7a3ff15291866bd"
+    },
+    "chatVariables.json": {
+      "h": "g:8cbd10f8808178cf91d73f266fb29f050c96034a",
+      "gz": false,
+      "b": "8cbd10f8808178cf91d73f266fb29f050c96034a"
+    },
+    "_migration.json": {
+      "h": "g:ba7c83b26d626b565f8f8fc0b833ef11feb716e0",
+      "gz": false,
+      "b": "ba7c83b26d626b565f8f8fc0b833ef11feb716e0"
+    }
+  }
+}
